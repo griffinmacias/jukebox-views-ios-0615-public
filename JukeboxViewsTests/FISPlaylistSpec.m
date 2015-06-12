@@ -89,7 +89,7 @@ describe(@"FISPlaylist", ^{
         });
         
         it(@"should return nil if an invalid position is entered",^{
-            expect([playlist songAtPosition:@0]).to.beNil();
+            expect([playlist songAtPosition:@15]).to.beNil();
         });
     });
     
